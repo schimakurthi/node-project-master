@@ -1,6 +1,6 @@
 const express = require("express");
 const user_controller = require("../controllers/user.controller");
-var VerifyToken = require("./VerifyToken");
+var VerifyToken = require("./verifyToken");
 
 const router = express.Router();
 router.post("/register", user_controller.register);
